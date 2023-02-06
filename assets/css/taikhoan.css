@@ -1,0 +1,103 @@
+.management-form,.management-account {
+    display: flex;
+    background: #fff;
+    box-shadow: 0 9px 46px 8px rgb(0 0 0 / 6%), 0 24px 38px 3px rgb(0 0 0 / 4%), 0 11px 15px -7px rgb(0 0 0 / 5%);
+    border-radius: 12px;
+    padding: 35px;
+    display: block;
+    color: var(--text-color);
+}
+
+.management-form-contain {
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.management-form-heading h3 {
+    font-size: 24px;
+    color: var(--hover-color);
+    padding-bottom: 20px;
+}
+
+.form-contain-item .form-contain-title {
+    font-size:15px;
+    color: var(--text-color);
+
+}
+.form-contain-item {
+    margin-top: 25px;
+}
+
+.input-type {
+    padding: 8px 10px;
+    border: 1px solid var(--border-color);
+    outline: var(--hover-color);
+    border-radius: 5px;
+    width:300px;
+
+}
+
+.input-type:focus {
+    border-color: var(--outline-color);
+    box-shadow: 0 0 5px 0 rgb(246 94 57 / 50%);
+    outline: none;
+}
+
+#email,
+#phone {
+    margin-left:30px;
+}
+
+#full_name,
+#password {
+
+}
+
+.form-mt {
+    padding-right: 52px;
+}
+.btn:first-child {
+    margin-left: 20%;
+    margin-right:15px;
+}
+.btn {
+    padding: 10px 30px;
+}
+.btn-primaryinput-type {   
+    background-size: 200% auto;
+    background-image: linear-gradient(90deg,#f65e38 0,#f68a39 51%,#f65e38);
+    border: none;
+    border-radius: 25px;
+    color: var(--background-color);
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px 0 rgb(246 116 57 / 40%);
+}
+
+
+.c-15 {
+    width: 15%;
+}
+#management-form-item {
+    display:flex;
+}
+
+.btn_de {
+    padding: 4px 15px;
+}
+
+table {
+    color: var(--text-color);
+    font-size:16px;
+    font-size: 14px;
+}
+
+.form-notification {
+    display: block;
+    color: var(--hover-color);
+}

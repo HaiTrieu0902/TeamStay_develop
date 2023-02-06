@@ -1,0 +1,214 @@
+
+
+/* Trang tin tức */
+.container-news {
+    width: 100%;
+    border-radius:30px;
+}
+.container-news-img {
+    position: relative;
+}
+.container-news-img img{
+    border-radius:30px;
+    width: 100%;
+    max-height:500px;
+    object-fit: contain;
+}
+
+.container-news-drop {
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    color: var(--background-color);
+}
+.container-news-heading h2{
+    font-size: 24px;
+}
+.container-news-title {
+    font-size: 16px;
+    margin-top:-10px;
+}
+
+
+/* Hero wrapper */
+.container_heroblock-wrapper {
+    display:flex;
+    height:500px;
+    padding-top: 20px;
+
+}
+.container_hero_horizontal {
+    overflow: hidden;
+    height: 100%;
+}
+.wrapper-contain {
+    position: relative;
+    display: block;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+}
+.wrapper_list-img {
+    overflow: hidden;
+}
+.container_heroblock_scrollbar {
+    position: relative; 
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.wrapper_img_background {
+    transition: transform .35s;
+}
+.wrapper_img_lazyload img {
+    filter:brightness(80%);
+}
+
+.wrapper_img_lazyload {
+     background-image: url(/assets/img/Tintuc/paris.jpg) no-repeat center;
+}
+.wrapper_list-content {
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    color: var(--background-color);
+    padding: 0 25px 50px;
+    cursor: pointer;
+}
+
+.wrapper_item-category {
+    max-width: 110px;
+    height:26px;
+    background-color: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.wrapper_item-post {
+    display:flex;
+    opacity: 0;
+    transition: transform .35s;
+}
+.wrapper-contain:hover .wrapper_item-style_img {
+    transition: transform .35s;
+    transform: translate3d(-40px,0,0);
+} 
+.wrapper-contain:hover .wrapper_item-style {
+    transform: translate3d(0,-25px,0);
+    transition: transform .35s;
+}
+.wrapper-contain:hover .wrapper_item-style_1 {
+    opacity: 1;
+    transform: translate3d(0,-30px,0);
+    transition: .35s ease;
+}
+.wrapper_item-category a {
+    color: var(--background-color);
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+    transition: transform .35s;
+}
+
+
+.wrapper_item-info {
+    padding-right: 10px;
+}
+.wrapper_item-info .wrapper_item-title{
+    font-size:24px;
+    line-height:28px;
+}
+
+
+.wrapper_item-author {
+    font-size:12px;
+    text-transform:uppercase;
+    margin-right: 10px;
+    font-weight:600;
+}
+.wrapper_item-author a, 
+.wrapper_item-meta a {
+    font-size:12px;
+    color: var(--border-color);
+    font-weight:600;
+}
+
+
+.wrapper_contain_scrollbar {
+    height:50%;
+}
+.wrapper_img_scrollbar{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+
+.wrapper_list-content_scrollbar {
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+    color: var(--background-color);
+    padding: 0 25px 50px;
+    cursor: pointer;
+    width: 100%;
+}
+.wrapper_item-info .wrapper_item-title_scrollbar{
+    font-size:16px;
+    line-height:22px;
+}
+.wr_last {
+    padding-left: 8px;
+}
+.wr_first {
+    padding-right: 8px;
+}
+.wr_last ,.wr_first {
+    margin-top: -52px;
+}
+.news_background {
+    background-color: rgba(0,0,0,0.5);
+}
+.new-update-list {
+    padding-top:50px;
+}
+.new-update-item  {
+    position: relative;
+    margin-top:8px;
+}
+.new-update__img {
+    width: 100%;
+    border-radius:15px;
+    overflow: hidden;
+}
+.is__absolute {
+    position: absolute;
+    bottom: 20px;
+    left:30px;
+}
+
+.new-update__img img {
+    width: 100%;
+    height:400px;
+    object-fit: cover;
+    border-radius:15px;
+}
+
+.new-update__title h4{
+    font-size:18px;
+    color: var(--background-color);
+}
+.new-update__title .new-update__blur {
+    font-size:15px;
+    color: rgba(206, 199, 199, 0.925);
+    font-weight: bold;
+}
+.section-block__img img{
+    max-height: 218px !important;
+    object-fit: contain;
+    width: 100%;
+}
